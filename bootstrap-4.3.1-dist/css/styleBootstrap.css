@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(216, 216, 226) 0%,
+    rgb(242, 242, 243) 35%,
+    rgb(70, 84, 87) 100%
+  ) !important;
+}
+
+.icon {
+  color: white;
+}
