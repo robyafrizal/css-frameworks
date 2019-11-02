@@ -5,38 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CSS Frameworks</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
     <style>
-      body,
-      html {
-        height: 100%;
-      }
-      .homepage {
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        text-align: center;
-        list-style-type: none;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-      }
-      li {
-        margin: 100px;
-      }
-      li a {
-        text-decoration: none;
-        font-style: normal;
-        color: brown;
+      body {
+        background-image: url("./images/3.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 800px;
       }
     </style>
   </head>
   <body>
-    <div class="homepage">
-      <ul>
-        <li><a href="bulma.html">Bulma</a></li>
-        <li><a href="bootstrap.html">Bootstrap</a></li>
-        <li><a href="materialize.html">Materialize</a></li>
-      </ul>
+    <div class="d-flex justify-content-center shadow-lg bg-white rounded">
+      <div class="p-2 bd-highlight"><a href="bulma.html">Bulma</a></div>
+      <div class="p-2 bd-highlight"><a href="bootstrap.html">Bootstrap</a></div>
+      <div class="p-2 bd-highlight">
+        <a href="materialize.html">Materialize</a>
+      </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
